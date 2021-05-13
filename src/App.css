@@ -1,6 +1,116 @@
-.App {
-  text-align: center;
+body{
+  background:#282c34;
 }
+
+.App {
+  text-align: center;  
+}
+
+.todoicon{
+  font-size: 32px;
+}
+
+.App .heading{
+  color:#DE3163;
+  font-size: 42px;
+  font-family:cursive;
+  font-weight: 800;
+  margin: 40px;
+}
+
+.inputfield{
+  border: 2px solid #DE3163;
+  color: #DE3163;
+  height: 30px;
+  width: 215px;
+  border-radius: 50px 0px 0px 50px;
+  outline: none;
+  padding-left: 18px;
+  font-weight: 600;
+  font-family:Arial;
+}
+
+.alerttxt{
+  margin-right: 375px;
+  font-size: 14px;
+  color:#DE3163;
+  font-weight: 600;
+}
+
+.searchfield{
+  border: 2px solid #DE3163;
+  color: #DE3163;
+  width: 80px;
+  height: 30px;
+  border-radius: 0px 0px 0px 0px;
+  outline: none;
+  padding-left: 8px;
+  font-weight: 600;
+  font-family:Arial;
+  border-left: none;
+}
+
+.btn{
+  width: 100px;
+  height: 36px;
+  color: #fff;
+  border:none;
+  border-radius: 0px 50px 50px 0px;
+  background-color: #DE3163;
+  outline: none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.list{
+  color: #fff;
+  background-color: #DE3163;
+  border-radius: 50px;
+  height: 28px;
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-right: 20px;
+  font-weight: 600;
+  margin:auto;
+  width: 400px;
+  margin-bottom: 15px;
+}
+
+.taskname{
+  width: 80px;
+}
+
+.check{
+  float: left;
+}
+
+.complete{
+  float: right;
+  margin: 0px 5px;
+  color:#fff;
+  margin-right:15px;
+}
+
+.editinput{
+  border: none;
+  outline: none;
+  /* background: transparent; */
+  /* color: #fff; */
+  font-weight: 600;
+  text-align: center;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+   'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 
+   'Droid Sans', 'Helvetica Neue', sans-serif;
+  margin-top: -1px;
+}
+
+@media only screen and (max-width: 746px) {
+  .inputfield{
+    width: 176px;
+  }
+}
+
 
 .App-logo {
   height: 40vmin;
